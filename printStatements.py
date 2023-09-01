@@ -31,6 +31,16 @@
 
 
 # going over comments
-city_name = "St. Potatosburg"
-#population of the city
-city_pop = 340000
+# city_name = "St. Potatosburg"
+# #population of the city
+# city_pop = 340000
+
+
+# going over integers
+cucumbers = 1
+
+price_per_cucumber = 3.25
+
+total_cost = cucumbers * price_per_cucumber
+
+print(total_cost)
