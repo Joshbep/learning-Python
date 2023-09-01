@@ -63,6 +63,14 @@
 # I'm an expert Python coder.
 # I'm 21 years old and I plan to program cool stuff forever.
 
-age_is_12 = False
+# age_is_12 = False
 
-name_is_maria = True
+# name_is_maria = True
+
+float_1 = 0.25
+float_2 = 40.0
+
+product = float(float_1) * float(float_2)
+big_string = "The product was " + str(product)
+
+print(big_string)
