@@ -67,10 +67,19 @@
 
 # name_is_maria = True
 
-float_1 = 0.25
-float_2 = 40.0
+# float_1 = 0.25
+# float_2 = 40.0
 
-product = float(float_1) * float(float_2)
-big_string = "The product was " + str(product)
+# product = float(float_1) * float(float_2)
+# big_string = "The product was " + str(product)
 
-print(big_string)
+# print(big_string)
+
+skill_completed = "Python Syntax"
+
+exercises_completed = 13
+#The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+point_total = 100
+point_total += (exercises_completed * points_per_exercise)
+print("I got " + str(point_total) + " points!")
