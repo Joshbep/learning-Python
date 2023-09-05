@@ -36,3 +36,18 @@ fifth_letter = "MONTY"[4]
 
 print fifth_letter
 
+parrot = "Norwegian Blue"
+print len(parrot)
+
+parrot = "Norwegian Blue".lower()
+print parrot
+
+parrot = "norwegian blue".upper()
+
+print parrot
+
+"""Declare and assign your variable on line 4,
+then call your method on line 5!"""
+
+pi = 3.14
+print str(pi)
