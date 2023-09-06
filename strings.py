@@ -98,3 +98,7 @@ So if you wanted "Y", you could just type
 # print my_string.upper()
 
 from datetime import datetime
+
+rom datetime import datetime
+now = datetime.now()
+print now
