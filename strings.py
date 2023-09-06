@@ -93,6 +93,8 @@ So if you wanted "Y", you could just type
 # pratice
 # Write your code below, starting on line 3!
 
-my_string = "hi"
-print len(my_string)
-print my_string.upper()
+# my_string = "hi"
+# print len(my_string)
+# print my_string.upper()
+
+from datetime import datetime
