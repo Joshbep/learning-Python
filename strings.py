@@ -103,12 +103,17 @@ from datetime import datetime
 # now = datetime.now()
 # print now
 
+# from datetime import datetime
+# now = datetime.now()
+# current_year = now.year
+# current_month = now.month
+# current_day = now.day
+# print now
+# print current_year
+# print current_month
+# print current_day
+
 from datetime import datetime
 now = datetime.now()
-current_year = now.year
-current_month = now.month
-current_day = now.day
-print now
-print current_year
-print current_month
-print current_day
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)
