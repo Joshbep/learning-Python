@@ -99,6 +99,16 @@ So if you wanted "Y", you could just type
 
 from datetime import datetime
 
-rom datetime import datetime
+# from datetime import datetime
+# now = datetime.now()
+# print now
+
+from datetime import datetime
 now = datetime.now()
+current_year = now.year
+current_month = now.month
+current_day = now.day
 print now
+print current_year
+print current_month
+print current_day
