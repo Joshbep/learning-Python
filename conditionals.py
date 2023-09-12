@@ -36,13 +36,30 @@ bool_one = False    # We did this one for you!
 
 # (10 + 17) == 3**16
 # Remember that ** can be read as 'to the power of'. 3**16 is about 43 million.
-bool_two = False
+# bool_two = False
 
-# 1**2 <= -1
-bool_three = False
+# # 1**2 <= -1
+# bool_three = False
 
-# 40 * 4 >= -4
-bool_four = True
+# # 40 * 4 >= -4
+# bool_four = True
 
-# 100 != 10**2
-bool_five = False
+# # 100 != 10**2
+# bool_five = False
+
+# Create comparative statements as appropriate on the lines below!
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 3 != 3
+
+# Make me true!
+bool_three = 4 == 3+1
+
+# Make me false!
+bool_four = 4+2 >= 8
+
+# Make me true!
+bool_five = 9 > 8
