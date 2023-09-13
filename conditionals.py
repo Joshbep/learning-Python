@@ -107,16 +107,25 @@ bool_one = False    # We did this one for you!
 # Use boolean expressions as appropriate on the lines below!
 
 # Make me false!
-bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+# bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
 
-# Make me true!
-bool_two = True and True
+# # Make me true!
+# bool_two = True and True
 
-# Make me false!
-bool_three = False and True
+# # Make me false!
+# bool_three = False and True
 
-# Make me true!
-bool_four = not False
+# # Make me true!
+# bool_four = not False
 
-# Make me true!
-bool_five = True or True
+# # Make me true!
+# bool_five = True or True
+
+response = "Y"
+
+answer = "Left"
+if answer == "Left":
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+    
+# Will the above print statement print to the console?
+# Set response to 'Y' if you think so, and 'N' if you think not.
