@@ -50,16 +50,26 @@ bool_one = False    # We did this one for you!
 # Create comparative statements as appropriate on the lines below!
 
 # Make me true!
-bool_one = 3 < 5  # We already did this one for you!
+# bool_one = 3 < 5  # We already did this one for you!
 
-# Make me false!
-bool_two = 3 != 3
+# # Make me false!
+# bool_two = 3 != 3
 
-# Make me true!
-bool_three = 4 == 3+1
+# # Make me true!
+# bool_three = 4 == 3+1
 
-# Make me false!
-bool_four = 4+2 >= 8
+# # Make me false!
+# bool_four = 4+2 >= 8
 
-# Make me true!
-bool_five = 9 > 8
+# # Make me true!
+# bool_five = 9 > 8
+
+bool_one = False and False
+
+bool_two = -(-(-(-2))) == -2 and 4 >= 16 ** 0.5
+
+bool_three = 19 % 4 != 300 / 10 / 10 and False
+
+bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
+
+bool_five = True and True
