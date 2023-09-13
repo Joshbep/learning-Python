@@ -64,12 +64,22 @@ bool_one = False    # We did this one for you!
 # # Make me true!
 # bool_five = 9 > 8
 
-bool_one = False and False
+# bool_one = False and False
 
-bool_two = -(-(-(-2))) == -2 and 4 >= 16 ** 0.5
+# bool_two = -(-(-(-2))) == -2 and 4 >= 16 ** 0.5
 
-bool_three = 19 % 4 != 300 / 10 / 10 and False
+# bool_three = 19 % 4 != 300 / 10 / 10 and False
 
-bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
+# bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
 
-bool_five = True and True
+# bool_five = True and True
+
+bool_one = 2**3 == 108 % 100 or 'Cleese' == 'King Arthur'
+
+bool_two = True or False
+
+bool_three = 100**0.5 >= 50 or False
+
+bool_four = True or True
+
+bool_five = 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
