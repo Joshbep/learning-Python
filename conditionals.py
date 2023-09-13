@@ -130,13 +130,27 @@ bool_one = False    # We did this one for you!
 # Will the above print statement print to the console?
 # Set response to 'Y' if you think so, and 'N' if you think not.
 
-def using_control_once():
-    if True:
-        return "Success #1"
+# def using_control_once():
+#     if True:
+#         return "Success #1"
 
-def using_control_again():
-    if True:
-        return "Success #2"
+# def using_control_again():
+#     if True:
+#         return "Success #2"
 
-print using_control_once()
-print using_control_again()
+# print using_control_once()
+# print using_control_again()
+
+answer = "'Tis but a scratch!"
+
+def black_knight():
+    if answer == "'Tis but a scratch!":
+        return True
+    else:             
+        return False
+
+def french_soldier():
+    if answer == "Go away, or I shall taunt you a second time!":
+        return True
+    else:             
+        return False
