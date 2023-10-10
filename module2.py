@@ -92,3 +92,19 @@ print(type(occupation))
 # You can get the absolute value of a number like this:
 
 # answer = abs(-12)
+
+# The + operator can also be used with strings to concatenate them together.
+
+# print(19%6)
+# print(2**4)
+# conversion_ratio. = 9/5
+# num_planets = 9
+# num_planets-=1
+# title = "Doctor"
+# last_name = "Pierce"
+# print(title + " " + last_name)
+
+# The input() function reads typed input from the user. You can use it in a couple of ways. For example, if you want to ask the user for their name, you can do this:
+# print("Please enter your name.")
+# name = input()
+# print("Hi", name)
