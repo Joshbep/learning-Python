@@ -27,3 +27,24 @@
 # If there are literal values that appear in your code, it can be a good idea to replace them with constants.
 
 # the name of a constant is in all caps, for example MAX_CAPACITY or EARTH_GRAVITY. A constant is assigned a value once and then that value should never change during the program's execution. Python doesn't enforce this, because it has a philosophy of "we're all adults here", so you could change the value of a constant, but just don't. Declaring a constant gives a name to a literal value, making it easier to recognize or remember the value's purpose, so that you don't have "magic numbers" in your code.
+
+# Something that often comes up for the output of a program is printing out specific text, but with the values of certain variables or constants filled in. There are a few different ways of doing this in Python. Here's one example:
+# ex:print("Your dog is", dog_age, "years old.")
+
+# Here's an example that uses string concatenation, which will be mentioned in the next exploration:
+# print("Your dog is " + str(dog_age) + " years old.")
+
+# Here's one more example, using something called an f-string (because of the 'f' at the beginning):
+# print(f"Your dog is {dog_age} years old.")
+
+pi = 3.14159
+print(pi)
+
+last_name = "Smith"
+print(last_name)
+
+length_in_inches = 19.3
+print(type(length_in_inches))
+
+occupation = "haberdashery"
+print(type(occupation))
