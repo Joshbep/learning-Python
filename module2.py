@@ -76,3 +76,19 @@ print(type(occupation))
 # > my_sum = my_sum + 8
 # > my_sum += 8
 
+
+# You can combine = with each of the operators above to get the following shortcut operators:
+
+# > num += 3  # same as num = num + 3
+# > num -= 3  # same as num = num - 3
+# > num *= 3  # same as num = num * 3
+# > num /= 3  # same as num = num / 3
+# > num //= 3 # same as num = num // 3
+# > num %= 3  # same as num = num % 3
+# > num **= 3 # same as num = num ** 3
+
+# The += operator is the most commonly used of these, since it's handy for accumulating totals.
+
+# You can get the absolute value of a number like this:
+
+# answer = abs(-12)
