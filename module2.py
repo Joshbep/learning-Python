@@ -108,3 +108,19 @@ print(type(occupation))
 # print("Please enter your name.")
 # name = input()
 # print("Hi", name)
+
+# User input is always a string. If you want a numeric value from user input, then you need to cast the string to an int or a float.
+
+# > age = int(input("Please enter your age: "))
+# > height_in_meters = float(input("Please enter your height in meters: "))
+
+# Each of the lines above combines two functions. First the input function gets a string from the user. Next the int() or float() function casts that string to a numeric value. That value is then assigned to the variable. We can call those functions on separate lines if we want:
+
+# > str_age = input("Please enter your age: ") # str_age will refer to a string value
+# > int_age = int(str_age) # int_age will refer to an int value
+
+# name = input("What is your name?")
+# print("Hello" + " " + name)
+
+# name = input("What is your name?")
+# print("Hello", name)
