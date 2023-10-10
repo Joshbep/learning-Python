@@ -48,3 +48,31 @@ print(type(length_in_inches))
 
 occupation = "haberdashery"
 print(type(occupation))
+
+
+# Comments are notes for those reading the code, and are ignored by the Python interpreter. A comment begins with #. A comment can be either on its own line or on the same line as other code. Either way, the compiler ignores everything between the # and the end of the line.
+
+# Addition, subtraction, multiplication and division are done with the +, -, *, and / symbols.
+
+# The floor division operation is done with the // symbol, and gives you the rounded down result of division.
+# ex:floor_1 = 7 // 2 # 3
+# ex:floor_2 = -7 // 2 # -4
+
+# Normal division results in a float value, even if the result is an integer.  For example 8 / 4 would give you 2.0.  If you need an integer remainder, use floor division.
+
+# The mod operation is done with the % symbol, and gives you the remainder of division.
+# > remainder_1 = 14 % 3 # 2
+# > remainder_2 = 3 % 5 # 3
+
+# Exponentiation is done with the ** symbol.
+# > power_1 = 3 ** 4 # 81
+# > power_2 = 2 ** -3 # 0.125
+
+# The order of operations is exponentiation, followed by multiplication, division, floor, and mod, followed by addition and subtraction. However parentheses can be used to give whatever order is needed, since operations in parentheses happen first.
+# > result_1 = 3 * 5 + 1 # 16, multiplication happens first
+# > result_2 = 3 * (5 + 1) # 18, addition happens first
+
+# The += operator is a slightly shorter way to express that you want to add something to an existing value. The following statements do exactly the same thing:
+# > my_sum = my_sum + 8
+# > my_sum += 8
+
