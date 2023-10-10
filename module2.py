@@ -124,3 +124,12 @@ print(type(occupation))
 
 # name = input("What is your name?")
 # print("Hello", name)
+
+# first_num = float(input())
+# second_num = float(input())
+# print("The result is", first_num * second_num)
+
+# first_num = float(input("first number: "))
+# second_num = float(input("second number: "))
+# result = first_num * second_num
+# print("The result is", result)
