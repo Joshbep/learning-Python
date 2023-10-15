@@ -135,3 +135,16 @@ str = input("please enter some words: ")
 for letter in str:
     str_count += 1
     if(str_count % 2 == 0)
+
+#     3. Write code that continues reading a string from the user and printing it out until the user enters "quit".
+# Sample input: 
+#     Pessimism = sin against science.
+#     Energy out of the tin, climate control, perpetual growth!
+#     To convert Iceland into a tropical paradise –
+#     no problem. The rest makes no difference.
+#     quit
+# Expected output:
+#     Pessimism = sin against science.
+#     Energy out of the tin, climate control, perpetual growth!
+#     To convert Iceland into a tropical paradise –
+#     no problem. The rest makes no difference.
