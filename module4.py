@@ -14,3 +14,10 @@ def twice(num):
 
 # Sample input: 5
 # Expected output: 10
+
+def is_even(n):
+  return n % 2 == 0
+# Write a function named is_even that takes an integer parameter and returns a bool value - True if the integer is even, and False if the integer is odd.
+
+# Sample input: 7
+# Expected output: False
